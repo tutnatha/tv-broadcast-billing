@@ -1,4 +1,4 @@
-create table gen21xls (
+CREATE TABLE gen21xls (
 mo_no varchar(20) not null,
 po_number varchar(50) not null,
 package_no varchar(50),
@@ -110,4 +110,4 @@ POSTTXFLAG char(1),
 CHANGE_RATE_REASON varchar(60),
 CHANGE_RATE_USER varchar(15),
 CHANGE_RATE_DATE DATE
-);
+) ENGINE=INNODB;
